@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +21,7 @@ header img {
 }
 
 main {
-    width: 100vw;
+    width: 98vw;
 
     display: flex;
     justify-content: center;
@@ -56,12 +56,14 @@ main img {
 .container_main p {
     color: #3C408F;
 
-    font-family: "Open Sans", sans-serif;
+    font-family: "Figtree", sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
 }
 
 .email_address {
+    padding: 20px;
+
     margin-top: 43px;
     margin-bottom: 80px;
 
@@ -76,3 +78,42 @@ main img {
     box-shadow: 0px 0px 2px #c4bfbb;
 }
 
+.email_input button {
+    width: 140px;
+    height: 60px;
+
+    border-radius: 8px;
+    border: none;
+
+    font-family: "Figtree", sans-serif;
+    font-size: 20px;
+
+    background-color: #3C36CC;
+    color: #FFFFFF;
+}
+
+.email_input input {
+    width: 400px;
+    height: 50px;
+
+    padding: 0 15px; 
+
+    background-color: #F9F8F7;
+
+    border: 1px solid transparent;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-family: "Figtree", sans-serif;
+
+    box-shadow: 0;
+
+    transition: border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.email_input input:focus {
+    outline: none;
+    border-color: #000000;
+    box-shadow: 0 0 0 3px #8b7ddf59;
+
+}
